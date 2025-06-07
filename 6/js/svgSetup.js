@@ -1,4 +1,5 @@
-import * as d3 from 'd3'; // Assuming D3 is available globally or manage imports
+// D3 is loaded globally via a script tag in index.html
+// so we can reference the global `d3` object directly here.
 import { SVG_WIDTH, SVG_HEIGHT, MARGIN, COLUMN_LABELS, COLUMN_GAP } from './constants.js';
 
 export function setupSVG() {
